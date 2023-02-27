@@ -1,0 +1,76 @@
+body{
+    height: auto;
+    width: 1440px;
+}
+#bandelogo{
+    height: 200px;
+    width: auto;
+    background-color: beige;
+}
+#logo{
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#boutons{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+#Accueil,#Lieu,#Date,#Heure{
+    width: 360px;
+}
+#pub-header{
+    height: 100px;
+    width: 1440px;
+    background-color: pink;
+}
+#contenu{
+    height: 500px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+#larticle{
+    display: flex;
+    flex-direction: column;
+}
+#remplissage{
+    width: 50%;
+    background-color: blueviolet;
+}
+#pub{
+    height: 200px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+#pub1{
+    background-color: yellow;
+    height: 200px;
+    width: 720px;
+}
+#pub2{
+    background-color: red;
+    height: 200px;
+    width: 720px;
+}
+footer{
+    height: 200px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+#footer1{
+    background-color: black;
+    height: 200px;
+    width: 720px;
+}
+#footer2{
+    background-color: gray;
+    height: 200px;
+    width: 720px;
+}
